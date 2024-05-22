@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.cards-1 {
+	padding-top: 9.5rem;
+	padding-bottom: 6.625rem;
+	background-color: #ffffff;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1em 0;
+    position: relative;
+}
+
+header .logo {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    position: absolute;
+    top: 10px; /* Ajuste conforme necessário */
+    left: 10px; /* Ajuste conforme necessário */
+}
+
+main {
+    margin: 2em 0;
+}
+
+section {
+    margin-bottom: 2em;
+    padding: 0 1em;
+}
+
+#landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-content {
+    display: flex;
+    align-items: center;
+    
+}
+
+.landing-image {
+    position: relative;
+    width: 22%; /* Ajuste conforme necessário */
+    margin-right: 50px;
+}
+
+.landing-text {
+    width: 50%; /* Ajuste conforme necessário */
+    margin-right: 10px;
+}
+
+#cta {
+    background-color: #007BFF;
+    color: white;
+    padding: 2em 1em;
+}
+
+form {
+    display: inline-block;
+    margin: auto;
+}
+
+input[type="email"] {
+    padding: 0.5em;
+    margin-right: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 0em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.app-screens {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.screen {
+    margin: 1em;
+    text-align: center;
+}
+
+.screen p {
+    margin-bottom: 0.5em;
+}
+
+.screen-image {
+    width: 100%;
+    max-width: 300px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.download-links {
+    margin-top: 1em;
+}
+
+.download-link {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
